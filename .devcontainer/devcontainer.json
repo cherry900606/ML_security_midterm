@@ -1,0 +1,12 @@
+{
+    "name": "siamese",
+    "dockerComposeFile": "docker-compose.yml",
+    "workspaceMount": "/workspace",
+    "workspaceFolder": "/workspace",
+    "service": "devcontainer",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker"
+    ]
+}
